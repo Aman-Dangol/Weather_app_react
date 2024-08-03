@@ -1,6 +1,13 @@
 import { apiKey } from "./apiKey";
+import "./css_modules/global.css";
+import Header from "./components/header";
+
 function App() {
-  return <div>{apiKey}</div>;
+  return (
+    <>
+      <Header></Header>
+    </>
+  );
 }
 
 export default App;
