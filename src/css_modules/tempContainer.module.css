@@ -1,3 +1,5 @@
+@import url("./global.css");
+
 .container {
   display: flex;
   flex-direction: column;
@@ -13,10 +15,17 @@
   font-size: 4vw;
   font-weight: 900;
   text-align: center;
+  background: linear-gradient(
+    to right,
+    var(--text-color),
+    var(--highlight-color)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 p {
   font-size: 1.25em;
   text-align: center;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   width: 100%;
 }

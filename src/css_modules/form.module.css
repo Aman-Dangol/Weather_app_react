@@ -24,4 +24,5 @@
   outline: 0;
   background-color: var(--highlight-color);
   color: var(--text-color);
+  cursor: pointer;
 }

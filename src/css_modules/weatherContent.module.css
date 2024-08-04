@@ -1,0 +1,12 @@
+.container {
+  padding: 12px 0;
+  text-align: center;
+  position: relative;
+}
+
+.container > h3 {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
