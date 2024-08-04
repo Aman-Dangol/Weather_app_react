@@ -1,0 +1,22 @@
+@import url("./global.css");
+
+.formContainer {
+  margin: 0 auto;
+  width: 60%;
+  height: 2rem;
+}
+
+.formContainer > input {
+  width: 80%;
+  border: 0;
+  outline: 0;
+  padding: 1%;
+  margin-right: 2%;
+}
+
+.formContainer > button {
+  width: 18%;
+  padding: 1%;
+  border: 0;
+  outline: 0;
+}
