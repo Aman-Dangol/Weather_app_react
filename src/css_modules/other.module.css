@@ -1,0 +1,15 @@
+.container {
+  background-color: red;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px 2px;
+}
+
+.ddiv {
+  background-color: green;
+  text-align: center;
+}
