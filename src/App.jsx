@@ -6,12 +6,13 @@ import MainContainer from "./components/MainContainer";
 import { useState } from "react";
 
 function App() {
+  const [weatherData, setWeatherData] = useState("");
   console.clear();
   return (
     <>
       <Header></Header>
-      <Form></Form>
-      <MainContainer></MainContainer>
+      <Form apiKey={apiKey} setWeatherData={setWeatherData}></Form>
+      <MainContainer weatherData={weatherData}></MainContainer>
     </>
   );
 }
