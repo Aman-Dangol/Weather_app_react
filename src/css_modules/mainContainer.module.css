@@ -1,4 +1,15 @@
 .container {
-  position: relative;
-  height: calc(100vh - 12rem);
+  position: absolute;
+  height: calc(60% - 12rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1px;
+  top: 60%;
+  transform: translateY(-50%);
+  left: 10%;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12em rgba(255, 255, 255, 0.3);
+  padding: 1%;
 }
+
