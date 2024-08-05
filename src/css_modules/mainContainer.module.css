@@ -1,16 +1,25 @@
 .container {
-  width: 60%;
+  min-width: 60%;
   position: absolute;
   min-height: calc(50% - 12rem);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   column-gap: 1px;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   border-radius: 20px;
   box-shadow: 0px 0px 12em rgba(255, 255, 255, 0.3);
 }
 
-
+@media (max-width: 800px) {
+  .container {
+    min-width: 60%;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
