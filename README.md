@@ -12,6 +12,6 @@ Currently, two official plugins are available:
   please create apiKey.js  file and do :<br>
   <code> export default apiKey = {your api key}</code>
   <div>
-    I used <a href="https://openweathermap.org/"> Open Weather Map</a> api for this project
+    I used <a href="https://openweathermap.org/" target="_blank"> Open Weather Map</a> api for this project
   </div>
 </div>
