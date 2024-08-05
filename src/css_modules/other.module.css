@@ -1,5 +1,6 @@
+@import url("./global.css");
+
 .container {
-  background-color: red;
   height: 100%;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -7,9 +8,22 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 2px 2px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .ddiv {
-  background-color: green;
   text-align: center;
+  display: grid;
+  padding: 20px 0;
+}
+
+.ddiv > span:first-child {
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+
+.ddiv > span:last-child {
+  color: var(--highlight-color);
 }

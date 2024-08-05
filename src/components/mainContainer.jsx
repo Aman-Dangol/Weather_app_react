@@ -9,7 +9,7 @@ export default function MainContainer({ weatherData }) {
       <div className={styles.container}>
         <Temperature weatherData={weatherData}></Temperature>
         <WeatherContent weatherData={weatherData}></WeatherContent>
-        <Other></Other>
+        <Other weatherData={weatherData}></Other>
       </div>
     );
   }

@@ -8,7 +8,7 @@ import { useState } from "react";
 
 function App() {
   const [weatherData, setWeatherData] = useState("");
-  // console.clear();
+  console.clear();
   return (
     <>
       <Header></Header>

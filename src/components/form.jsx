@@ -18,7 +18,7 @@ export default function Form({ apiKey, weatherData, setWeatherData }) {
     fetchWeather(input);
   }
   useEffect(() => {
-    fetchWeather("nepal");
+    fetchWeather("kathmandu");
   }, []);
   return (
     <form className={styles.formContainer}>
