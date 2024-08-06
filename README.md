@@ -7,9 +7,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-
 <div>
-  please create apiKey.js  file and do :<br>
+  please create apiKey.js  file directly inside src folder and do :<br>
   <code> export const apiKey = {your api key}</code>
   <div>
     I used <a href="https://openweathermap.org/" target="_blank"> Open Weather Map</a> api for this project
